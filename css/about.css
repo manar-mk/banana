@@ -1,0 +1,49 @@
+/*-----------------about-----------------*/
+.b-about {
+	color: #fd7400;
+	background-color: #ffe11a;
+    top: 0;
+    left: 0;
+    border-width: 0px 10px 10px 0px;
+}
+.b-about .content{
+	bottom: 40px;
+	right: 40px;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 40%;
+}
+.b-about h1{
+	bottom: 0px;
+	right: 0px;
+}
+.b-about .menu{
+	background-image: url('../img/menu.png');
+	bottom: 0;
+	left: 0;
+}
+.b-team {
+    width: 60%;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+    justify-content: flex-start;
+}
+.b-team__part {
+    text-align: center;
+}
+.about__text,.price__text{
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+.team__img {
+    max-width: 80%;
+    margin-bottom: 1em;
+}
+.b-about__main{
+	padding-top: 2em;
+	width: 50%;
+}

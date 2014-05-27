@@ -1,0 +1,139 @@
+/*-----------------price-----------------*/
+.b-price {
+	color: #fff;
+ 	background-color: #fd7400;
+    top: 0;
+    right: 0;
+    border-width: 0px 0px 10px 10px;
+}
+.b-price .content{
+	left: 40px;
+	bottom: 40px;
+}
+.b-price h1{
+	color: #ffe11a;
+	left: 0px;
+	bottom: 0px;
+}
+.b-price .menu{
+	right: 0;
+	bottom: 0;
+}
+.b-price__description{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80%;
+	height: 80%;
+	overflow: hidden;
+	text-align: right;
+}
+.price__text{
+	margin-bottom: 1em;
+}
+.b-price__examples{	
+	margin-top: 0.5em;
+	float: right;
+    width: 60%;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+    justify-content: space-between;
+}
+.price__example{
+	width: 40%;
+	text-align: center;
+	text-decoration: underline;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0.75;
+	color: #fff;
+}
+.price__example:hover{
+	color: #ffe11a;
+	opacity: 1;
+}
+.price__example img{
+	max-width: 100%;
+	display: block;
+	margin-bottom: 1em;
+}
+.b-price__list{
+	position: absolute;
+	bottom: 4em;
+	left: 0%;
+    width: 19%;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    height: 90%;
+}
+.b-price__list_inline{
+	left: 17%;
+    width: 65%;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20%;
+    bottom: 4.05em;
+}
+.b-price__list .b-price__item{
+	width: 75%;
+	margin-top: 1.5em;
+}
+.b-price__list_inline .b-price__item{
+	align-self: flex-end;
+	width: auto;
+}
+
+.b-price__item{
+	cursor: pointer;
+	line-height: 1.3em;
+	text-align: center;
+	vertical-align: bottom;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.b-price__item:hover{
+	background-color: #fc5400;
+}
+.price__icon{
+	margin: 0.3em auto;
+	max-width: 2em;
+	max-height: 2em;
+}
+.price__icon img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.price__label{
+	display: block;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0.3em auto;
+	width: 99%;
+}
+.price__amount{
+	background-color: #ffe11a;
+	color: #fd7400;
+	width: 80%;
+	display: block;
+	margin: 0.3em auto;
+}
